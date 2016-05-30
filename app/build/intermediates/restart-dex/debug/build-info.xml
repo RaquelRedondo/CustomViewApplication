@@ -4,25 +4,25 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="84961499835136"
-    verifier="METHOD_ADDED" >
+    timestamp="88697950580671"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="176" />
+        duration="98" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="562" />
     <task
         name="instant-run-transform"
-        duration="81" />
+        duration="14" />
     <task
         name="verifier"
-        duration="13" />
+        duration="3" />
 
     <artifact
-        location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
-        type="DEX" />
+        location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build timestamp="80289699793074" >
         <artifact
@@ -36,12 +36,24 @@
             location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />
     </build>
-    <build
-        timestamp="84961499835136"
-        verifier="METHOD_ADDED" >
+    <build timestamp="88576211172574" >
         <artifact
             location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="88626956139104"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/builds/debug/88626956139104/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="88697950580671"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -28,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnRotate(View view){
-
+        customView.rotate();
     }
 }

@@ -18,11 +18,15 @@ public class CustomView extends View{
     //Declare Paint variable for painting
     private Paint circlePaint;
 
+    //Declare rotation variable
+    private float rotation = 0;
+
     public CustomView (Context context, AttributeSet attrs) {
         super(context, attrs);
 
         //paint object for drawing in onDraw
         circlePaint = new Paint();
+
         TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.CustomView, 0, 0);
 
 
@@ -42,7 +46,7 @@ public class CustomView extends View{
         int widthHalf = this.getMeasuredWidth()/2;
 
         //Calculate the radius
-        int radius = 0;
+        int radius = 500;
         if (widthHalf>heightHalf){
             radius = widthHalf - 200;
         }else {
@@ -56,7 +60,11 @@ public class CustomView extends View{
         //Set the circle color
         circlePaint.setColor(circleColor);
 
-        //Draw the color on the canvas
+        //Do the rotation before drawing into the canvas
+        canvas.save();
+        canvas.rotate(rotation, widthHalf,heightHalf);
+
+        //Draw the circle
         canvas.drawCircle(widthHalf, heightHalf, radius/2, circlePaint);
 
         //Set the color, size and alignment of text
@@ -66,6 +74,9 @@ public class CustomView extends View{
 
         //Draw the text
         canvas.drawText(circleLabel,widthHalf,heightHalf,circlePaint);
+
+        //I don't know what this method does
+        canvas.restore();
     }
 
     //Create setters and getters
@@ -103,4 +114,11 @@ public class CustomView extends View{
         invalidate();
         requestLayout();
     }
+
+    public void rotate(){
+        rotation += 45;
+        invalidate();
+        requestLayout();
+    }
+
 }
