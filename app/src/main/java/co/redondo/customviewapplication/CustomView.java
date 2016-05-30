@@ -38,15 +38,15 @@ public class CustomView extends View{
     @Override
     protected void onDraw(Canvas canvas) {
         //Lets get some information about the available space
-        int heigthHalf  = this.getMeasuredHeight()/2;
+        int heightHalf  = this.getMeasuredHeight()/2;
         int widthHalf = this.getMeasuredWidth()/2;
 
         //Calculate the radius
         int radius = 0;
-        if (widthHalf>heigthHalf){
+        if (widthHalf>heightHalf){
             radius = widthHalf - 200;
         }else {
-            radius = heigthHalf - 10;
+            radius = heightHalf - 10;
         }
 
         //Set some properties for painting
@@ -57,7 +57,7 @@ public class CustomView extends View{
         circlePaint.setColor(circleColor);
 
         //Draw the color on the canvas
-        canvas.drawCircle(widthHalf, heigthHalf, radius/2, circlePaint);
+        canvas.drawCircle(widthHalf, heightHalf, radius/2, circlePaint);
 
         //Set the color, size and alignment of text
         circlePaint.setColor(labelColor);
@@ -65,7 +65,7 @@ public class CustomView extends View{
         circlePaint.setTextSize(100);
 
         //Draw the text
-        canvas.drawText(circleLabel,widthHalf,heigthHalf,circlePaint);
+        canvas.drawText(circleLabel,widthHalf,heightHalf,circlePaint);
     }
 
     //Create setters and getters

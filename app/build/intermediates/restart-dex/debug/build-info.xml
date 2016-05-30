@@ -4,25 +4,22 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="84639904207023"
-    verifier="FIELD_ADDED" >
+    timestamp="84961499835136"
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="128" />
+        duration="176" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="16" />
+        duration="81" />
     <task
         name="verifier"
-        duration="32" />
+        duration="13" />
 
-    <artifact
-        location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
     <artifact
         location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
         type="DEX" />
@@ -33,18 +30,15 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="81904993257312"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/builds/debug/81904993257312/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
         timestamp="84639904207023"
         verifier="FIELD_ADDED" >
         <artifact
             location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />
+    </build>
+    <build
+        timestamp="84961499835136"
+        verifier="METHOD_ADDED" >
         <artifact
             location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
             type="DEX" />
