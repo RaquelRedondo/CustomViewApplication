@@ -29,7 +29,6 @@ public class CustomView extends View{
 
         TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.CustomView, 0, 0);
 
-
         try {
             circleColor = a.getInteger(R.styleable.CustomView_circleColor, 0); //0 is default
             labelColor = a.getInteger(R.styleable.CustomView_labelColor, 0);
