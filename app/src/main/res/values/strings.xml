@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CustomViewApplication</string>
     <string name="btn_label">Change</string>
+    <string name="btn_rotate">Rotate</string>
 </resources>

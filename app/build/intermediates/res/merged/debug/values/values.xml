@@ -216,6 +216,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">CustomViewApplication</string>
     <string name="btn_label">Change</string>
+    <string name="btn_rotate">Rotate</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

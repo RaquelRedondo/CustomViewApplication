@@ -4,25 +4,28 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="81904993257312"
-    verifier="COMPATIBLE" >
+    timestamp="84639904207023"
+    verifier="FIELD_ADDED" >
 
     <task
         name="javac"
-        duration="244" />
+        duration="128" />
     <task
         name="instant-run-dex"
-        duration="860" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="36" />
+        duration="16" />
     <task
         name="verifier"
-        duration="10" />
+        duration="32" />
 
     <artifact
-        location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
 
     <build timestamp="80289699793074" >
         <artifact
@@ -30,7 +33,14 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="81859650080336"
+        timestamp="81904993257312"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/builds/debug/81904993257312/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="84639904207023"
         verifier="FIELD_ADDED" >
         <artifact
             location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/res/resources-debug.ap_"
@@ -38,13 +48,6 @@
         <artifact
             location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="81904993257312"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

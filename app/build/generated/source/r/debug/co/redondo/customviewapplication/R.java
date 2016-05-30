@@ -1807,6 +1807,7 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int app_name=0x7f060014;
         public static final int btn_label=0x7f060015;
+        public static final int btn_rotate=0x7f060016;
         public static final int status_bar_notification_info_overflow=0x7f060013;
     }
     public static final class style {

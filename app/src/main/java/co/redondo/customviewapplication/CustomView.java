@@ -44,7 +44,7 @@ public class CustomView extends View{
         //Calculate the radius
         int radius = 0;
         if (widthHalf>heigthHalf){
-            radius = widthHalf - 10;
+            radius = widthHalf - 200;
         }else {
             radius = heigthHalf - 10;
         }

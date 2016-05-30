@@ -18,12 +18,23 @@
         custom:circleColor="#6e686c"
         custom:circleLabel="Hello"
         custom:labelColor="#ffffff" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="btnPressed"
+            android:text="@string/btn_label" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="btnRotate"
+            android:text="@string/btn_rotate" />
+    </LinearLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:onClick="btnPressed"
-        android:text="@string/btn_label" />
 
 </RelativeLayout>
