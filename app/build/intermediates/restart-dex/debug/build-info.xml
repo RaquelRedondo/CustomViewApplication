@@ -4,55 +4,30 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="88697950580671"
-    verifier="COMPATIBLE" >
+    timestamp="5503427070926" >
 
     <task
         name="javac"
-        duration="98" />
+        duration="1404" />
     <task
         name="instant-run-dex"
-        duration="562" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="14" />
+        duration="218" />
     <task
         name="verifier"
-        duration="3" />
+        duration="61" />
 
     <artifact
-        location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="80289699793074" >
-        <artifact
-            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/outputs/apk/app-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="84639904207023"
-        verifier="FIELD_ADDED" >
-        <artifact
-            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="88576211172574" >
-        <artifact
-            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="88626956139104"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/builds/debug/88626956139104/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
     <build
         timestamp="88697950580671"
         verifier="COMPATIBLE" >
         <artifact
-            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/reload-dex/debug/classes.dex"
+            location="/home/raquel/Desktop/Exercises/CustomViewApplication/app/build/intermediates/builds/debug/88697950580671/classes.dex"
             type="RELOAD_DEX" />
     </build>
 
